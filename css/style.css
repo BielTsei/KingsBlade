@@ -1,0 +1,146 @@
+:root {
+  --carvao: #333333;
+  --branco--gelo: #fff5f5;
+  --prata: #b0b0b0;
+  --dourado1: #feed9a;
+  --dourado2: #fbc648;
+  --dourado3: #f2a124;
+  --dourado4: #d89736;
+}
+
+@font-face {
+  font-family: Onyx;
+  src: url(/OPTIOnyx.otf);
+}
+
+body {
+  background-color: #333333;
+}
+
+/* =============== Menu =============== */
+#logo {
+  font-size: 20pt;
+  font-family: "Onyx";
+  font-weight: 100;
+}
+
+#header {
+  margin-left: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 100000;
+  background-color: var(--carvao);
+}
+#menu {
+  display: flex;
+  gap: 20px;
+}
+#menu a {
+  display: block;
+  padding: 0.5rem;
+  color: var(--branco--gelo);
+  font-size: 12pt;
+}
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 40%;
+    top: 80px;
+    height: 0;
+    right: 0;
+    z-index: 1000;
+    transition: 0.6s;
+    visibility: hidden;
+    overflow-y: hidden;
+    background-color: var(--carvao);
+  }
+  #nav.active #menu {
+    height: calc(100% - 80px);
+    visibility: visible;
+    transition: 0.6s;
+  }
+  #menu a {
+    padding: 2rem 0;
+    margin: 0 40px;
+    border-bottom: 2px solid var(--black);
+    font-size: 12px;
+    text-align: center;
+  }
+  #btn-mobile {
+    display: flex;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  #hamburguer {
+    display: block;
+    color: var(--white);
+    width: 20px;
+    border-top: 2px solid;
+  }
+  #hamburguer::after,
+  #hamburguer::before {
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    content: "";
+    display: block;
+    margin-top: 5px;
+    transition: 0.6s;
+    position: relative;
+  }
+  #nav.active #hamburguer {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburguer::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
+
+.line {
+  display: flex;
+  height: 2px;
+  width: 100%;
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+/* =============== Menu =============== */
+
+.bg-home h1 {
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 320px;
+  font-weight: 400;
+  font-size: 18pt;
+  text-transform: uppercase;
+}
+
+.bg-home {
+  background-image: url(/assets/bg-desktop.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+  width: 100%;
+}
