@@ -50,7 +50,7 @@ section {
 }
 
 .servico-card p {
-  font-size: 12pt;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -61,6 +61,12 @@ section {
 .servico-card h3 {
   font-size: 14pt;
   margin-bottom: 15px;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* =============== Chamada Clientes =============== */
@@ -102,3 +108,102 @@ section {
 }
 
 /* =============== Chamada Clientes =============== */
+
+/* =============== Media Querry =============== */
+
+@media (min-width: 768px) {
+  section {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .bg-servicos h1 {
+    font-size: 24pt;
+    padding-left: 80px;
+  }
+
+  .servicos-container h2 {
+    font-size: 24px;
+  }
+
+  #text-servicos {
+    font-size: 16px;
+  }
+  .servicos-container img {
+    width: 55px;
+  }
+
+  .arrow-line {
+    display: none;
+  }
+
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 70px;
+  }
+
+  .servico-card {
+    margin-bottom: 0;
+  }
+
+  .chamada-clientes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 50px;
+    justify-content: space-evenly;
+  }
+
+  .texts-clientes-chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .horizontal-line {
+    width: 50vw;
+    height: 2px;
+    background-color: #f0e68c; /* Cor da linha */
+    margin: 0; /* Remover margens para evitar espaçamento indesejado */
+  }
+
+  .arrow-left,
+  .arrow-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+  }
+
+  .arrow-left {
+    border-right: 12px solid #f0e68c; /* Largura da seta esquerda */
+    margin-right: -1px; /* Conexão perfeita com a linha */
+  }
+
+  .arrow-right {
+    border-left: 12px solid #f0e68c; /* Largura da seta direita */
+    margin-left: -1px; /* Conexão perfeita com a linha */
+  }
+
+  .chamada-clientes h3 {
+    font-size: 20px;
+  }
+
+  .chamada-clientes p {
+    max-width: 400px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .chamada-clientes img {
+    width: 340px;
+  }
+}
