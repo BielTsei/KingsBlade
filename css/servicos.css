@@ -1,0 +1,71 @@
+.home-servicos {
+  background-image: url(/assets/capa-serviços.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-servicos h1 {
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+section {
+  padding: 0px 30px 0px 30px;
+}
+
+.servicos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicos-container h2 {
+  font-size: 16pt;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.servicos-container img {
+  width: 24px;
+}
+
+#text-servicos {
+  font-size: 10pt;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.servico-card {
+  max-width: 280px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.servico-card p {
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.container-infos {
+  margin-top: 25px;
+}
+
+.servico-card h3 {
+  font-size: 14pt;
+}
+
+.chamada-clientes img {
+  width: 270px;
+}
+
+#arrowdown {
+  width: 45px;
+}

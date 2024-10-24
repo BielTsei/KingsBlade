@@ -252,7 +252,7 @@ footer {
 /* =============== Linha Divisoria =============== */
 
 .line {
-  width: 70vw;
+  width: 50vw;
   height: 4px;
   background-color: var(--dourado1); /* Cor da linha (amarelo claro) */
 }
