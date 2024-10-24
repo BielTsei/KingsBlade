@@ -126,6 +126,8 @@ body {
 
 /* =============== Menu =============== */
 
+/* =============== Home =============== */
+
 .bg-home h1 {
   padding-top: 150px;
   padding-left: 40px;
@@ -144,3 +146,130 @@ body {
   height: calc(100vh - 80px);
   width: 100%;
 }
+
+.servico img {
+  width: 24px;
+  margin-right: 25px;
+}
+
+.servico {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.btn a {
+  font-size: 10pt;
+  font-weight: 800;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: var(--dourado3);
+  border-radius: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn-agende {
+  margin-bottom: 40px;
+}
+
+.servico-btn {
+  margin-top: 25px;
+}
+
+.home-p2 {
+  margin: 50px 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-p2 h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+#title-home2 {
+  margin-bottom: 50px;
+}
+
+/* =============== Home =============== */
+
+/* =============== Footer =============== */
+
+footer {
+  background-color: var(--dourado3);
+  padding: 50px 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  height: 4px;
+  background-color: var(--carvao);
+}
+
+.btn-footer {
+  width: 180px;
+  height: 50px;
+  background-color: var(--dourado1);
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.btn-footer a {
+  color: var(--carvao);
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.btn-footer img {
+  width: 20px;
+}
+
+.arrow-line {
+  display: flex;
+  align-items: center;
+}
+
+/* =============== Footer =============== */
+
+/* =============== Linha Divisoria =============== */
+
+.line {
+  width: 70vw;
+  height: 4px;
+  background-color: var(--dourado1); /* Cor da linha (amarelo claro) */
+}
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.arrow.left {
+  border-right: 20px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+}
+
+.arrow.right {
+  border-left: 20px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+}
+
+/* =============== Linha Divisoria =============== */
