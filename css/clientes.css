@@ -14,3 +14,37 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+.container-clientes {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.avalicao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b0b0b082;
+  width: 260px;
+  height: 330px;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.avalicao img {
+  margin-bottom: 25px;
+}
+.avalicao p {
+  font-size: 12px;
+  font-style: italic;
+}
