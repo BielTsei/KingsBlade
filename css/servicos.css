@@ -90,8 +90,15 @@ section {
 }
 
 .chamada-clientes p {
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 400;
+  max-width: 400px;
+}
+
+.texts-clientes-chamada {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #arrowdown {
