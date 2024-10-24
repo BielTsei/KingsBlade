@@ -1,5 +1,5 @@
 .bg-trabalhe {
-  background-image: url(/assets/bg-contato.jpg);
+  background-image: url(/assets/bg-contato-mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,6 +60,9 @@
 }
 
 @media (min-width: 768px) {
+  .bg-trabalhe {
+    background-image: url(/assets/bg-contato.jpg);
+  }
   .formulario {
     margin: 70px;
   }
