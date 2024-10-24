@@ -165,7 +165,7 @@ body {
 }
 
 .btn {
-  width: 200px;
+  width: 220px;
   height: 50px;
   background-color: var(--dourado3);
   border-radius: 12px;
@@ -221,7 +221,7 @@ footer {
 }
 
 .btn-footer {
-  width: 180px;
+  width: 220px;
   height: 50px;
   background-color: var(--dourado1);
   display: flex;
@@ -253,23 +253,26 @@ footer {
 
 .line {
   width: 50vw;
-  height: 4px;
+  height: 2px;
   background-color: var(--dourado1); /* Cor da linha (amarelo claro) */
+  margin: 0;
 }
 .arrow {
   display: inline-block;
   width: 0;
   height: 0;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
 }
 
 .arrow.left {
-  border-right: 20px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+  border-right: 12px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+  margin-right: -1px;
 }
 
 .arrow.right {
-  border-left: 20px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+  border-left: 12px solid var(--dourado1); /* Cor da seta (amarelo claro) */
+  margin-left: -1px;
 }
 
 /* =============== Linha Divisoria =============== */
