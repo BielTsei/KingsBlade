@@ -197,7 +197,10 @@ body {
 }
 
 #title-home2 {
+  max-width: 670px;
   margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 /* =============== Home =============== */
@@ -276,3 +279,41 @@ footer {
 }
 
 /* =============== Linha Divisoria =============== */
+
+/* =============== Media Querry =============== */
+
+@media (min-width: 768px) {
+  .bg-home h1 {
+    font-size: 24pt;
+    padding-left: 150px;
+  }
+
+  .home-p2 {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #title-home2 {
+    font-size: 17.5px;
+    line-height: 25px;
+  }
+
+  .btn-agende {
+    margin-bottom: 50px;
+  }
+  .container-servicos-home {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+
+  .servico img {
+    margin-right: 15px;
+  }
+  .container-btns-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
