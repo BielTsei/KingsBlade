@@ -1,0 +1,16 @@
+.bg-clientes {
+  background-image: url(/assets/capa-modelos.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-clientes h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18pt;
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
