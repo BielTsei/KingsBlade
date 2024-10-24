@@ -68,11 +68,12 @@
 .container-cards-produtos {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .card-produto {
-  gap: 33px;
   max-width: 280px;
+  gap: 33px;
   display: flex;
   align-items: center;
 }
@@ -110,4 +111,32 @@
 .btn-especialista a {
   font-size: 12px;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .bg-produtos h1 {
+    font-size: 24pt;
+    padding-left: 120px;
+  }
+
+  .produtos-container h1 {
+    margin-top: 20px;
+  }
+
+  .arrow-line-container {
+    display: none;
+  }
+
+  .produtos-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .container-cards-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 70px;
+    margin: 20px;
+    padding: 20px;
+  }
 }
