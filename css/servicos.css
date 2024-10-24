@@ -44,7 +44,7 @@ section {
 }
 
 .servico-card {
-  max-width: 280px;
+  max-width: 380px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -60,12 +60,45 @@ section {
 
 .servico-card h3 {
   font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+/* =============== Chamada Clientes =============== */
+
+.chamada-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .chamada-clientes img {
   width: 270px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chamada-clientes h3 {
+  font-size: 14pt;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.chamada-clientes p {
+  font-size: 14pt;
+  font-weight: 400;
 }
 
 #arrowdown {
   width: 45px;
 }
+
+.btn-clientes {
+  margin-bottom: 30px;
+}
+
+.btn-clientes a {
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+/* =============== Chamada Clientes =============== */
