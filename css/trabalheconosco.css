@@ -61,6 +61,7 @@
   font-size: 14px;
   font-weight: 600;
   margin: auto;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
