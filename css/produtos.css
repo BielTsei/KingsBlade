@@ -79,6 +79,7 @@
 
 .card-produto img {
   width: 50px;
+  animation: imgproduct 2s ease-in-out 0s 1 normal none;
 }
 
 .infos-produtos h3 {
@@ -110,6 +111,18 @@
 .btn-especialista a {
   font-size: 12px;
   font-weight: 700;
+}
+
+@keyframes imgproduct {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @media (min-width: 768px) {
