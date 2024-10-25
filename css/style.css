@@ -176,7 +176,7 @@ body {
 
 .btn-agende {
   margin-bottom: 40px;
-  animation: btnAgendeAgr 2s ease-in-out 0s 1 normal none;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .servico-btn {
@@ -282,7 +282,7 @@ footer {
 
 /* =============== Linha Divisoria =============== */
 
-@keyframes btnAgendeAgr {
+@keyframes myAnim {
   0% {
     animation-timing-function: ease-in;
     opacity: 1;
@@ -327,7 +327,6 @@ footer {
     transform: translateY(0px);
   }
 }
-
 /* =============== Media Querry =============== */
 
 @media (min-width: 768px) {
