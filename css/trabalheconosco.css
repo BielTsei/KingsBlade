@@ -64,6 +64,10 @@
   cursor: pointer;
 }
 
+#tks {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .bg-trabalhe {
     background-image: url(/assets/bg-contato.jpg);
