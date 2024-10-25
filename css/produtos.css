@@ -7,9 +7,8 @@
 }
 
 .bg-produtos h1 {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 40px;
-  padding-right: 40px;
   font-weight: 400;
   font-size: 18pt;
   text-transform: uppercase;
@@ -116,7 +115,8 @@
 @media (min-width: 768px) {
   .bg-produtos h1 {
     font-size: 24pt;
-    padding-left: 120px;
+    padding-left: 150px;
+    padding-top: 150px;
   }
 
   .produtos-container h1 {

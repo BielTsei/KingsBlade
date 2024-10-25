@@ -130,7 +130,7 @@ body {
 /* =============== Home =============== */
 
 .bg-home h1 {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 40px;
   max-width: 600px;
   font-weight: 400;
@@ -286,6 +286,7 @@ footer {
 @media (min-width: 768px) {
   .bg-home h1 {
     font-size: 24pt;
+    padding-top: 150px;
     padding-left: 150px;
   }
 

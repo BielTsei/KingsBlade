@@ -7,12 +7,13 @@
 }
 
 .bg-servicos h1 {
-  padding-top: 90px;
+  padding-top: 100px;
   padding-left: 40px;
   padding-right: 40px;
   font-size: 16pt;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 section {
@@ -128,6 +129,7 @@ section {
   .bg-servicos h1 {
     font-size: 24pt;
     padding-left: 80px;
+    padding-top: 150px;
   }
 
   .servicos-container h2 {
