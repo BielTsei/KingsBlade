@@ -41,6 +41,9 @@
 #container-formulario input {
   height: 30px;
   border-radius: 5px;
+  color: black;
+  padding-left: 15px;
+  border: none;
 }
 
 #container-formulario form div {
