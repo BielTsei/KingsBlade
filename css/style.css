@@ -6,6 +6,7 @@
   --dourado2: #fbc648;
   --dourado3: #f2a124;
   --dourado4: #d89736;
+  --swiper-theme-color: #d89736;
 }
 
 @font-face {
@@ -131,11 +132,11 @@ body {
 .bg-home h1 {
   padding-top: 150px;
   padding-left: 40px;
-  padding-right: 40px;
-  max-width: 320px;
+  max-width: 600px;
   font-weight: 400;
   font-size: 18pt;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .bg-home {
