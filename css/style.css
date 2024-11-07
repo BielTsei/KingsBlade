@@ -132,6 +132,7 @@ body {
 .bg-home h1 {
   padding-top: 100px;
   padding-left: 40px;
+  padding-right: 40px;
   max-width: 600px;
   font-weight: 400;
   font-size: 18pt;
